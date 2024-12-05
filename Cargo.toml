@@ -14,7 +14,7 @@ rust-version = "1.71.1"
 [workspace]
 [dev-dependencies]
 pretty_assertions = "1.0"
-unsafe-libyaml-test-suite = { path = "tests/data" }
+unsafe-libyaml-norway-test-suite = { path = "tests/data" }
 
 [lib]
 doc-scrape-examples = false

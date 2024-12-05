@@ -1218,11 +1218,11 @@ name = "unsafe-libyaml-norway"
 version = "0.2.12"
 dependencies = [
  "pretty_assertions",
- "unsafe-libyaml-test-suite",
+ "unsafe-libyaml-norway-test-suite",
 ]
 
 [[package]]
-name = "unsafe-libyaml-test-suite"
+name = "unsafe-libyaml-norway-test-suite"
 version = "0.0.0"
 dependencies = [
  "anyhow",
