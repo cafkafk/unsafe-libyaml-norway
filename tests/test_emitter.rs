@@ -34,4 +34,4 @@ fn test(id: &str) {
     assert!(output.success);
 }
 
-unsafe_libyaml_test_suite::test_emitter!();
+unsafe_libyaml_norway_test_suite::test_emitter!();

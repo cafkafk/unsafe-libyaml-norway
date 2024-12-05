@@ -25,7 +25,7 @@ use std::mem::MaybeUninit;
 use std::process::{self, ExitCode};
 use std::ptr::addr_of_mut;
 use std::slice;
-use unsafe_libyaml::{
+use unsafe_libyaml_norway::{
     yaml_event_delete, yaml_event_t, yaml_event_type_t, yaml_parser_delete, yaml_parser_initialize,
     yaml_parser_parse, yaml_parser_set_input, yaml_parser_t, YAML_ALIAS_EVENT,
     YAML_DOCUMENT_END_EVENT, YAML_DOCUMENT_START_EVENT, YAML_DOUBLE_QUOTED_SCALAR_STYLE,

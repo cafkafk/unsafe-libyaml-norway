@@ -1,5 +1,5 @@
 [package]
-name = "unsafe-libyaml"
+name = "unsafe-libyaml-norway"
 version = "0.2.12"
 authors = ["Christina Sørensen <christina@cafkafk.com>", "David Tolnay <dtolnay@gmail.com>"]
 categories = ["encoding", "parser-implementations", "no-std"]
