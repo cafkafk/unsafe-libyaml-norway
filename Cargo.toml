@@ -1,7 +1,7 @@
 [package]
 name = "unsafe-libyaml"
-version = "0.2.11"
-authors = ["David Tolnay <dtolnay@gmail.com>"]
+version = "0.2.12"
+authors = ["Christina Sørensen <christina@cafkafk.com>", "David Tolnay <dtolnay@gmail.com>"]
 categories = ["encoding", "parser-implementations", "no-std"]
 description = "libyaml transpiled to rust by c2rust"
 documentation = "https://docs.rs/unsafe-libyaml"
@@ -9,7 +9,7 @@ edition = "2021"
 keywords = ["yaml"]
 license = "MIT"
 repository = "https://github.com/dtolnay/unsafe-libyaml"
-rust-version = "1.60"
+rust-version = "1.71.1"
 
 [workspace]
 [dev-dependencies]

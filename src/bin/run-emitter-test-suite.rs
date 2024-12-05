@@ -69,10 +69,7 @@ pub(crate) unsafe fn unsafe_main(
     let mut event = MaybeUninit::<yaml_event_t>::uninit();
     let event = event.as_mut_ptr();
     let result = loop {
-        let line = match buf.get_line(stdin) {
-            Some(line) => line,
-            None => break Ok(()),
-        };
+        let Some(line) = buf.get_line(stdin) else { break Ok(()) };
 
         let mut anchor = [0u8; 256];
         let mut tag = [0u8; 256];
