@@ -1214,7 +1214,7 @@ checksum = "adb9e6ca4f869e1180728b7950e35922a7fc6397f7b641499e8f3ef06e50dc83"
 
 [[package]]
 name = "unsafe-libyaml-norway"
-version = "0.2.14"
+version = "0.2.15"
 dependencies = [
  "pretty_assertions",
  "unsafe-libyaml-norway-test-suite",
